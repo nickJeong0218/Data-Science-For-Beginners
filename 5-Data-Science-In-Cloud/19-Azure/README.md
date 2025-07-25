@@ -108,7 +108,7 @@ from azureml.core import Workspace
 ws = Workspace.from_config()
 ```
 
-This returns an object of type `Workspace` that represents the workspace. The you need to create an `experiment` using the following code:
+This returns an object of type `Workspace` that represents the workspace. Then you need to create an `experiment` using the following code:
 
 ```python
 from azureml.core import Experiment

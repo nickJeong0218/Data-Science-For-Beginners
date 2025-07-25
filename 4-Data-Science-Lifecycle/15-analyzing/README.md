@@ -19,6 +19,7 @@ Recall that a data scientist may ask the following questions when they acquire t
 -   Do I have enough data to solve this problem?
 -   Is the data of acceptable quality for this problem?
 -   If I discover additional information through this data, should we consider changing or redefining the goals?
+
 Exploratory Data Analysis is the process of getting to know that data and can be used to answer these questions, as well identify the challenges of working with the dataset. Let’s focus on some of the techniques used to achieve this.
 
 ## Data Profiling, Descriptive Statistics, and Pandas

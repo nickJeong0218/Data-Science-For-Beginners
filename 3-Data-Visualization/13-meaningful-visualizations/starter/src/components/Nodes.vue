@@ -26,7 +26,21 @@ export default {
   },
   methods: {
     createLinks(characters) {
-      //complete this code
+      //loop through letters
+      let f = 0;
+      let t = 0;
+      for (var i = 0; i < letters.length; i++) {
+          for (var j = 0; j < characters.length; j++) {
+              
+            if (characters[j] == letters[i].from) {
+              f = j;
+            }
+            if (characters[j] == letters[i].to) {
+              t = j;
+            }
+        }
+        this.links.push({ sid: f, tid: t });
+      }
     },
     getCount(name) {
       var count = 0;
